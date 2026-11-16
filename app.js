@@ -50,6 +50,21 @@
   "telegram": "<path d=\"M21.5 3.5 2.8 10.6c-.9.34-.87 1.62.04 1.9l4.6 1.42 1.75 5.2c.27.8 1.3.97 1.82.3l2.44-3.1 4.7 3.44c.7.5 1.68.13 1.87-.72l2.6-14.5c.2-1.06-.86-1.9-1.87-1.54Z\"/><path d=\"m9.2 13.9 8.6-6.2-6.5 7.3\"/>"
 };
 
+  Object.assign(ICONS, {
+  "scissors": "<circle cx=\"6\" cy=\"6\" r=\"3\"/><path d=\"M8.12 8.12 12 12\"/><path d=\"M20 4 8.12 15.88\"/><circle cx=\"6\" cy=\"18\" r=\"3\"/><path d=\"M14.8 14.8 20 20\"/>",
+  "sparkles": "<path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"/><path d=\"M20 2v4\"/><path d=\"M22 4h-4\"/><circle cx=\"4\" cy=\"20\" r=\"2\"/>",
+  "shield-check": "<path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"/><path d=\"m9 12 2 2 4-4\"/>",
+  "coffee": "<path d=\"M10 2v2\"/><path d=\"M14 2v2\"/><path d=\"M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1\"/><path d=\"M6 2v2\"/>",
+  "brush": "<path d=\"m11 10 3 3\"/><path d=\"M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z\"/><path d=\"M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031\"/>",
+  "flower": "<circle cx=\"12\" cy=\"12\" r=\"3\"/><path d=\"M12 16.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 1 1 12 7.5a4.5 4.5 0 1 1 4.5 4.5 4.5 4.5 0 1 1-4.5 4.5\"/><path d=\"M12 7.5V9\"/><path d=\"M7.5 12H9\"/><path d=\"M16.5 12H15\"/><path d=\"M12 16.5V15\"/><path d=\"m8 8 1.88 1.88\"/><path d=\"M14.12 9.88 16 8\"/><path d=\"m8 16 1.88-1.88\"/><path d=\"M14.12 14.12 16 16\"/>",
+  "eye": "<path d=\"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0\"/><circle cx=\"12\" cy=\"12\" r=\"3\"/>",
+  "waves": "<path d=\"M2 12q2.5 2 5 0t5 0 5 0 5 0\"/><path d=\"M2 19q2.5 2 5 0t5 0 5 0 5 0\"/><path d=\"M2 5q2.5 2 5 0t5 0 5 0 5 0\"/>",
+  "user": "<path d=\"M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2\"/><circle cx=\"12\" cy=\"7\" r=\"4\"/>",
+  "palette": "<path d=\"M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z\"/><circle cx=\"13.5\" cy=\"6.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"17.5\" cy=\"10.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"6.5\" cy=\"12.5\" r=\".5\" fill=\"currentColor\"/><circle cx=\"8.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\"/>",
+  "droplet": "<path d=\"M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z\"/>",
+  "footprints": "<path d=\"M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z\"/><path d=\"M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z\"/><path d=\"M16 17h4\"/><path d=\"M4 13h4\"/>"
+});
+
   const icon = (name, size) =>
     ICONS[name]
       ? '<svg class="ico" width="' + (size || 24) + '" height="' + (size || 24) +
@@ -220,13 +235,10 @@
             <span class="logo__slogan">${escapeHtml(b.slogan || "")}</span>
           </span>
         </a>
-        <nav class="nav" id="nav">${nav}</nav>
+        <nav class="nav" id="nav">${nav}<a class="nav__cta" href="${escapeHtml(SITE.booking?.telegram || "#booking")}" target="_blank" rel="noopener">${escapeHtml(SITE.booking?.buttonText || "Записаться")}</a></nav>
         <a class="btn btn--primary btn--sm header__cta" href="${escapeHtml(SITE.booking?.telegram || "#booking")}" target="_blank" rel="noopener">
           ${icon("telegram", 17)} ${escapeHtml(SITE.booking?.buttonText || "Записаться")}
         </a>
-        <button class="burger" id="burger" aria-label="Меню">
-          <span></span><span></span><span></span>
-        </button>
       </div>`;
 
     const headerEl = $("#header");
@@ -588,22 +600,7 @@
 
   function initHeader() {
     const header = $("#header");
-    const nav = $("#nav");
-    const burger = $("#burger");
     const progress = $("#progress");
-
-    burger?.addEventListener("click", () => {
-      const open = nav.classList.toggle("is-open");
-      burger.classList.toggle("is-open", open);
-      document.body.classList.toggle("no-scroll", open);
-    });
-
-    nav?.addEventListener("click", (e) => {
-      if (e.target.tagName !== "A") return;
-      nav.classList.remove("is-open");
-      burger?.classList.remove("is-open");
-      document.body.classList.remove("no-scroll");
-    });
 
     const toTop = document.createElement("button");
     toTop.className = "to-top";
@@ -643,7 +640,7 @@
 
   // подсветка активного пункта меню
   function initNavSpy() {
-    const links = $$("#nav a");
+    const links = $$('#nav a[href^="#"]');
     if (!links.length || !("IntersectionObserver" in window)) return;
     const sections = links
       .map((a) => ({ a, el: document.querySelector(a.getAttribute("href")) }))
@@ -759,11 +756,9 @@
     reveal($(".cta"), 0, "zoom");
     $$(".footer").forEach((el) => reveal(el, 0));
 
-    revealEngine();
-    initHeader();
-    initNavSpy();
-    initCounters();
-    initTilt();
+    [revealEngine, initHeader, initNavSpy, initCounters, initTilt].forEach((fn) => {
+      try { fn(); } catch (e) { console.error("boot init error:", e); }
+    });
 
     document.body.classList.add("is-ready");
     document.documentElement.classList.add("loaded");
