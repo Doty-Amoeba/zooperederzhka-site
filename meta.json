@@ -1,11 +1,10 @@
 {
   "slug": "zooperederzhka-yaroslavl",
-  "built_at": "2026-11-16T18:47:24.466Z",
+  "built_at": "2026-11-16T19:02:31.367Z",
   "constructor_version": "2.0.0",
   "git_sha": null,
   "includes": [
-    "landing",
-    "booking-bot"
+    "landing"
   ],
   "domain": "",
   "prod_url": ""
